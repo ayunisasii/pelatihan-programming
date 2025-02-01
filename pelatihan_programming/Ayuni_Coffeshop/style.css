@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+    --colorprimary: #bc9667;
+    --colorsecondary: #edeae3;
+    --text-color: #1b1b1b;
+    --bg-color: #fff;
+    --button-color: #8a6f4d;
+}
+
+/* awal header */
+.header{
+    display: flex; /*supaya teksnya kesamping */
+    justify-content: space-between; /*supaya teksnya terbagi menjadi 3 bagian ada space tiap tabel kalau kita ibaratkan tabel */
+    align-items: center;
+   /* mengaturteksketengah */
+   background-color: black;
+}
+.header-brand{
+   padding: 20px;
+   color: white;
+}
+.header-menu a{
+  color: white; 
+  text-decoration: none; 
+  padding: 8px;
+}
+.header-icon a{
+   color: white;
+}
+/* akhir header */
+
+
+
+/* awal hero */
+.hero{
+   display: flex;
+   align-items: center; 
+   /* atas bawah */
+   padding: 0px 80px; 
+   background-image:  url(asset/bg.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   justify-content: space-between;
+  
+}
+.hero-desc{
+   width: 50%;
+}
+.hero-img img{ 
+   width: 450px;
+ }
+ .hero-button button {
+   background-color: orange;
+   color: white;
+   border-radius:10px;
+   padding: 10px 20px;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+.hero-button button:hover {
+   background-color: darkorange;
+}
+/* akhir hero */
+
+/* awal about */
+.about{   
+    display: flex;
+    align-items: center; 
+   /* atas bawah */
+    padding: 20px; 
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: space-between;
+}
+
+.about-img img{
+    width: 500px;
+    border-radius:10px;
+}
+
+.about-desc{
+    width: 50%;
+}
+
+.about-button button{
+    background-color: rgb(252, 198, 97);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius:10px;
+}
+/* akhir about */
+
+/* awal popular product */
+.product {
+   background-color: var(--bg-color);
+   padding-top: 20px;
+ }
+ 
+ .product-title {
+   text-align: center;
+   padding-top: 20px;
+   /* padding-bottom: 20px; */
+ }
+ 
+ .product-container {
+   display: flex;
+   justify-content: space-between;
+   /* align-content: flex-start; */
+   flex-wrap: wrap;
+   padding: 30px;
+   background-color: var(--bg-color);
+   justify-content: space-evenly;
+ }
+ 
+ .product-container button:hover {
+   transform: translateY(-5px);
+ }
+ 
+ .product-card {
+   width: 300px;
+   height: auto;
+   background-color: var(--bg-color);
+   padding: 20px;
+   box-shadow: 10px 10px 10px 10px rgba(188, 179, 179, 0.75);
+   box-sizing: var(--colorprimary);
+   border-radius: 10px;
+   align-content: space-around;
+   margin-top: 10px;
+   margin-bottom: 30px;
+ }
+ 
+ .product-card-img img {
+   width: 100%;
+ }
+ 
+ .product-card img {
+   background-color: var(--colorsecondary);
+   width: 100%;
+   width: 300px;
+   height: 300px;
+   border-radius: 12px;
+ }
+ 
+ .product-card-title {
+   text-align: left;
+   margin-top: 10px;
+ }
+ 
+ .product-card-desc {
+   /* display: flex; */
+   justify-content: space-between;
+   flex-wrap: wrap;
+ }
+ 
+ .product-card-price {
+   display: flex;
+   justify-content: space-between;
+   /* align-items: center; */
+   margin-top: 20px;
+   /* background-color: var(--text-color); */
+ }
+ 
+ .product-card-price p {
+   background-color: var(--colorprimary);
+   /* background-color: var(--colorprimary); */
+   color: var(--bg-color);
+   font-weight: bold;
+   border-color: var(--colorprimary);
+   padding: 7px 12px;
+   border-radius: 3px;
+   /* margin: 65px; */
+   /* margin-top: 10px; */
+ }
+ .product-card-price button {
+   background-color: var(--bg-color);
+   /* background-color: var(--colorprimary); */
+   color: var(--text-color);
+   border-color: var(--colorprimary);
+   padding: 7px 12px;
+   border-radius: 3px;
+   /* margin: 65px; */
+   /* margin-top: 10px; */
+ }
+ /* akhir popular product */
+
+ /* awal customer */
+.customer {
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding: 30px;
+   background-color: var(--bg-color);
+   justify-content: space-evenly;
+ }
+ 
+ .customer-title {
+   color: #000000;
+   text-align: center;
+   font-size: x-large;
+ }
+ 
+ .customer-container {
+   display: flex;
+   justify-content: space-between;
+   /* align-content: flex-start; */
+   flex-wrap: wrap;
+   padding: 30px;
+   background-color: var(--bg-color);
+   justify-content: space-evenly;
+ }
+ .customer-card {
+   width: 25%;
+   height: auto;
+   background-color: var(--bg-color);
+   padding: 20px;
+   box-shadow: 10px 10px 10px 10px rgba(188, 179, 179, 0.75);
+   box-sizing: var(--colorprimary);
+   border-radius: 10px;
+   text-align: center;
+ }
+ 
+ .customer-card img:hover {
+   transform: translateY(-5px);
+ }
+ 
+ .star {
+   display: flex;
+   justify-content: center;
+   padding: 10px 10px;
+   align-items: center;
+   color: rgb(226, 226, 91);
+   /* besarin bintang */
+   font-size: 1.8rem;
+ }
+ .customer-card h3 {
+   margin: 10px;
+ }
+ 
+ .customer-card img {
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   object-fit: cover;
+   padding: 8px;
+ }
+ /* akhir customer */
+
+ /* awal foother */
+ .footer {
+   display: flex;
+   justify-content: space-between;
+   /* align-content: flex-start; */
+   flex-wrap: wrap;
+   padding: 30px;
+   background-color: var(--bg-color);
+   justify-content: space-evenly;
+   margin: 12px 12px;
+ }
+ 
+ .footer-col1 {
+   padding: 12px;
+ }
+ .shoop {
+   padding-top: 15px;
+ }
+ .shoop i {
+   background-color: var(--colorsecondary);
+   padding: 17px;
+   border-radius: 4px;
+   margin-top: 10px;
+   font-size: 1.3rem;
+ }
+ 
+ .shoop i:hover {
+   transform: translateY(-5px);
+ }
+ 
+ .footer-col2 {
+   padding-top: 15px;
+ }
+ .footer-col2 p {
+   padding-top: 10px;
+ }
+ 
+ .footer-col3 {
+   padding-top: 15px;
+ }
+ .footer-col3 p {
+   padding-top: 10px;
+ }
+ 
+ .footer-col4 {
+   padding-top: 15px;
+ }
+ .cp1 {
+   display: flex;
+   align-items: center;
+   /* justify-content: center; */
+   gap: 10px;
+   padding: 3px;
+   padding-top: 15px;
+ }
+ .copyright{
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+   background-color: hsl(0, 0%, 74%);
+   color: black;
+}
+ /* akhir foother */

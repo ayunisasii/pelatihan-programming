@@ -1,0 +1,17 @@
+.kotak1{
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    margin: auto;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: bisque;
+    border-radius: 50%;
+    box-shadow: 20px 10px 8px -4px rgba(0,0,0,0.75);
+}
+
+.kotak2{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}

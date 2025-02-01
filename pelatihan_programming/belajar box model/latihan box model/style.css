@@ -1,0 +1,29 @@
+.boxutama{
+    border: 2px solid black;
+    margin: 100px;
+    padding: 10px;
+    top: 100px;
+    border-radius: 20px;
+}
+
+.box1{
+    margin: 20px;
+    padding: 30px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.box2{
+    margin: 20px;
+    padding: 30px;
+    background-color: rgb(190, 156, 223);
+    border-radius: 10px;
+}
+
+.box3{
+    margin: 20px;
+    padding: 30px;
+    background-color: rgb(179, 237, 219);
+    border-radius: 10px;
+}
+

@@ -1,0 +1,24 @@
+p{
+    color: blueviolet;
+}
+
+#coklat{
+    color: brown;
+}
+.merah{
+    color: red;
+}
+
+body{
+    background-image: url();
+    background-color: #e7c6ff;
+}
+
+.menu{
+    background-color: #e7c6ff;
+    text-align: center;
+}
+
+.menu a{
+    color: #335c67;
+}

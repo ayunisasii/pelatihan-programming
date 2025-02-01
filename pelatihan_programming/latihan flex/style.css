@@ -1,0 +1,32 @@
+.container{
+    border: 5px solid rgb(40, 40, 135);
+    display: flex;
+    gap: 10px;
+    padding: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card{
+    border: 1px solid black;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    /* flex: 1; */
+  }
+
+  .card-gambar{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card-gambar img{
+    width: 300px;
+  }
+
+  .card-deskripsi{
+    background-color: rgb(17, 148, 17);
+    text-align: center;
+    color: white;
+    padding: 15px;
+  }

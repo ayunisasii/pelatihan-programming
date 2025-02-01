@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* //mengaturteksketengahhm */
+    background-color: black;
+}
+.header-brand{
+    padding: 20px; 
+    color: white;
+}
+.header-menu a{
+   color: white; 
+   text-decoration: none;
+}
+.header-icon a{
+    color: white;
+}
+
+
+.hero{
+    background-image:  url(img/bg.png);
+}
+.hero-img img{ 
+    width: 200px ;
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;*/
+  }
